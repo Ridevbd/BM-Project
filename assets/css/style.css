@@ -2629,10 +2629,9 @@ div.mean-container a.meanmenu-reveal {
 }
 
 .banner-title {
-  font-size: 120px;
-  text-transform: uppercase;
+  font-size: 80px;
   color: var(--clr-common-white);
-  line-height: 1;
+  line-height: 2;
   letter-spacing: 3px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -10311,7 +10310,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 260px;
+  width: 350px;
   height: 100vh;
   background: #222;
   color: #fff;
@@ -10344,5 +10343,5 @@ body {
   background: #444;
 }
 body {
-  margin-left: 260px !important;
+  margin-left: 350px !important;
 }
