@@ -11,39 +11,39 @@
 /************ TABLE OF CONTENTS ***************
 
     01. common css
-	02. buttons css
-	03. animation css
-	04. header css
-	05. hero css
-	06. banner css
-	07. activity css
-	08. about css
-	09. services css
-	10. facility css
-	11. donation css
-	12. cta css
-	13. news css
-	14. contact-form css
-	15. brand css
-	16. subscribe css
-	17. page-title css
-	18. fact css
-	19. video css
-	20. team css
-	21. testimonial css
-	22. gallery css
-	23. feature css
-	24. enquiry css
-	25. accordion css
-	26. pricing css
-	27. faq css
-	28. error css
-	29. contact css
-	30. blog css
-	31. operations-gallery css
-	32. settings css
-	33. cursor css
-	34. footer css
+  02. buttons css
+  03. animation css
+  04. header css
+  05. hero css
+  06. banner css
+  07. activity css
+  08. about css
+  09. services css
+  10. facility css
+  11. donation css
+  12. cta css
+  13. news css
+  14. contact-form css
+  15. brand css
+  16. subscribe css
+  17. page-title css
+  18. fact css
+  19. video css
+  20. team css
+  21. testimonial css
+  22. gallery css
+  23. feature css
+  24. enquiry css
+  25. accordion css
+  26. pricing css
+  27. faq css
+  28. error css
+  29. contact css
+  30. blog css
+  31. operations-gallery css
+  32. settings css
+  33. cursor css
+  34. footer css
 
 **********************************************/
 /*----------------------------------------
@@ -752,7 +752,7 @@ video {
 }
 
 /*----------------------------------------
-	02. buttons css
+  02. buttons css
 ----------------------------------------*/
 .fill-btn {
   font-size: 16px;
@@ -1088,7 +1088,7 @@ video {
 }
 
 /*----------------------------------------
-	03. animation css
+  03. animation css
 ----------------------------------------*/
 @keyframes iconltr {
   49% {
@@ -1642,7 +1642,7 @@ video {
   }
 }
 /*----------------------------------------
-	04. header css
+  04. header css
 ----------------------------------------*/
 .sticky {
   position: fixed;
@@ -2459,7 +2459,7 @@ div.mean-container a.meanmenu-reveal {
 }
 
 /*----------------------------------------
-	05. hero css
+  05. hero css
 ----------------------------------------*/
 .banner-bg1 {
   position: absolute;
@@ -2569,7 +2569,7 @@ div.mean-container a.meanmenu-reveal {
 }
 
 /*----------------------------------------
-	06. banner css
+  06. banner css
 ----------------------------------------*/
 .banner-800 {
   min-height: 800px;
@@ -3335,7 +3335,7 @@ div.mean-container a.meanmenu-reveal {
 }
 
 /*----------------------------------------
-	07. activity css
+  07. activity css
 ----------------------------------------*/
 .activity-content {
   border: 1px solid #d3d3d3;
@@ -3565,7 +3565,7 @@ div.mean-container a.meanmenu-reveal {
 }
 
 /*----------------------------------------
-	08. about css
+  08. about css
 ----------------------------------------*/
 .about-content-wrapper {
   margin-inline-start: 40px;
@@ -3998,7 +3998,7 @@ div.mean-container a.meanmenu-reveal {
 }
 
 /*----------------------------------------
-	09. services css
+  09. services css
 ----------------------------------------*/
 .service-default.service-single .service-title {
   font-size: 26px;
@@ -4709,7 +4709,7 @@ div.mean-container a.meanmenu-reveal {
 }
 
 /*----------------------------------------
-	10. facility css
+  10. facility css
 ----------------------------------------*/
 .facility-thumb > img {
   width: 100%;
@@ -4928,7 +4928,7 @@ div.mean-container a.meanmenu-reveal {
 }
 
 /*----------------------------------------
-	11. donation css
+  11. donation css
 ----------------------------------------*/
 .donation-overlay-img {
   z-index: -1;
@@ -5259,7 +5259,7 @@ div.mean-container a.meanmenu-reveal {
 }
 
 /*----------------------------------------
-	12. cta css
+  12. cta css
 ----------------------------------------*/
 .cta-box {
   background: #ffaf00;
@@ -5368,7 +5368,7 @@ div.mean-container a.meanmenu-reveal {
 }
 
 /*----------------------------------------
-	13. news css
+  13. news css
 ----------------------------------------*/
 .single-news:hover .latest-news-thumb img {
   transform: scale(1.03);
@@ -5448,7 +5448,7 @@ div.mean-container a.meanmenu-reveal {
 }
 
 /*----------------------------------------
-	14. contact-form css
+  14. contact-form css
 ----------------------------------------*/
 .contact-form-style {
   position: relative;
@@ -5621,7 +5621,7 @@ div.mean-container a.meanmenu-reveal {
 }
 
 /*----------------------------------------
-	15. brand css
+  15. brand css
 ----------------------------------------*/
 .arm-brand {
   text-align: center;
@@ -5646,7 +5646,7 @@ div.mean-container a.meanmenu-reveal {
 }
 
 /*----------------------------------------
-	16. subscribe css
+  16. subscribe css
 ----------------------------------------*/
 .subscribe-wrapper {
   background: var(--clr-common-white);
@@ -5791,7 +5791,7 @@ div.mean-container a.meanmenu-reveal {
 }
 
 /*----------------------------------------
-	17. page-title css
+  17. page-title css
 ----------------------------------------*/
 .page-title-area {
   display: flex;
@@ -5916,7 +5916,7 @@ div.mean-container a.meanmenu-reveal {
 }
 
 /*----------------------------------------
-	18. fact css
+  18. fact css
 ----------------------------------------*/
 .fact-area-bg {
   background: var(--clr-theme-2);
@@ -5998,7 +5998,7 @@ div.mean-container a.meanmenu-reveal {
 }
 
 /*----------------------------------------
-	19. video css
+  19. video css
 ----------------------------------------*/
 .video-area {
   padding-top: 145px;
@@ -6065,7 +6065,7 @@ div.mean-container a.meanmenu-reveal {
 }
 
 /*----------------------------------------
-	20. team css
+  20. team css
 ----------------------------------------*/
 .team-special .team-thumb-bg {
   min-width: 290px;
@@ -6647,7 +6647,7 @@ div.mean-container a.meanmenu-reveal {
 }
 
 /*----------------------------------------
-	21. testimonial css
+  21. testimonial css
 ----------------------------------------*/
 .testimonial-icon {
   color: var(--clr-theme-1);
@@ -7143,7 +7143,7 @@ div.mean-container a.meanmenu-reveal {
 }
 
 /*----------------------------------------
-	22. gallery css
+  22. gallery css
 ----------------------------------------*/
 .gallery-thumb {
   position: relative;
@@ -7242,7 +7242,7 @@ div.mean-container a.meanmenu-reveal {
 }
 
 /*----------------------------------------
-	23. feature css
+  23. feature css
 ----------------------------------------*/
 .st-a.single-feature {
   border: 1px solid var(--clr-common-border);
@@ -7402,7 +7402,7 @@ div.mean-container a.meanmenu-reveal {
 }
 
 /*----------------------------------------
-	24. enquiry css
+  24. enquiry css
 ----------------------------------------*/
 .service-enquiry-area {
   background: var(--clr-theme-1);
@@ -7532,7 +7532,7 @@ div.mean-container a.meanmenu-reveal {
 }
 
 /*----------------------------------------
-	25. accordion css
+  25. accordion css
 ----------------------------------------*/
 .accordion-item {
   background: var(--clr-theme-1);
@@ -7603,7 +7603,7 @@ div.mean-container a.meanmenu-reveal {
 }
 
 /*----------------------------------------
-	26. pricing css
+  26. pricing css
 ----------------------------------------*/
 .price-card-default.price-card {
   background: #f0f0f0;
@@ -7716,7 +7716,7 @@ div.mean-container a.meanmenu-reveal {
 }
 
 /*----------------------------------------
-	27. faq css
+  27. faq css
 ----------------------------------------*/
 .faq-tab-nav .nav-tabs {
   border: 0;
@@ -7844,7 +7844,7 @@ div.mean-container a.meanmenu-reveal {
 }
 
 /*----------------------------------------
-	28. error css
+  28. error css
 ----------------------------------------*/
 .error-content-wrapper {
   text-align: center;
@@ -7883,7 +7883,7 @@ div.mean-container a.meanmenu-reveal {
 }
 
 /*----------------------------------------
-	29. contact css
+  29. contact css
 ----------------------------------------*/
 .contact-form-shape-1 {
   position: absolute;
@@ -8088,7 +8088,7 @@ div.mean-container a.meanmenu-reveal {
 }
 
 /*----------------------------------------
-	30. blog css
+  30. blog css
 ----------------------------------------*/
 .blog-single:hover .blog-thumb a::after,
 .blog-single:hover .footer-blog-thumb a::after,
@@ -9118,7 +9118,7 @@ div.mean-container a.meanmenu-reveal {
 }
 
 /*----------------------------------------
-	31. operations-gallery css
+  31. operations-gallery css
 ----------------------------------------*/
 .operations-area {
   overflow-x: clip;
@@ -9189,7 +9189,7 @@ div.mean-container a.meanmenu-reveal {
 }
 
 /*----------------------------------------
-	32. settings css
+  32. settings css
 ----------------------------------------*/
 .bd-theme-settings-area {
   position: fixed;
@@ -9556,7 +9556,7 @@ body {
 }
 
 /*----------------------------------------
-	33. footer css
+  33. footer css
 ----------------------------------------*/
 @media (min-width: 1440px) and (min-height: 905px) {
   .footer-sticky {
@@ -10299,6 +10299,33 @@ body {
 
 
 
+.mobile-menu-toggle {
+  display: none;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 10000;
+  background: #222;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+}
+@media (max-width: 991px) {
+  .sidebar-menu-nav {
+    transform: translateX(-100%);
+    margin-left: 0;
+  }
+  .sidebar-menu-nav.active {
+    transform: translateX(0);
+  }
+  body {
+    margin-left: 0 !important;
+  }
+  .mobile-menu-toggle {
+    display: block;
+  }
+}
 
 
 
@@ -10312,12 +10339,56 @@ body {
   left: 0;
   width: 350px;
   height: 100vh;
-  background: #222;
+  background: linear-gradient(180deg, #222 80%, #2c2c2c 100%);
   color: #fff;
   z-index: 9999;
-  padding-top: 30px;
-  box-shadow: 2px 0 8px rgba(0,0,0,0.08);
+  padding-top: 40px;
+  box-shadow: 2px 0 16px rgba(0,0,0,0.12);
+  border-right: 1px solid #333;
   overflow-y: auto;
+  transition: transform 0.3s ease;
+}
+.sidebar-menu-nav .sidebar-logo {
+  text-align: center;
+  margin-bottom: 32px;
+  padding-bottom: 24px;
+  border-bottom: 2px solid #333;
+}
+.sidebar-menu-nav .sidebar-logo img {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+.sidebar-menu-nav .sidebar-menu {
+  list-style: none;
+  padding: 0 0 0 0;
+  margin: 0;
+}
+.sidebar-menu-nav .sidebar-menu > li {
+  margin-bottom: 0;
+  position: relative;
+}
+.sidebar-menu-nav .sidebar-menu > li:not(:last-child)::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #333;
+  margin: 0 18px 0 18px;
+}
+.sidebar-menu-nav .sidebar-menu a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 14px 28px;
+  border-radius: 6px;
+  font-size: 1.08rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+.sidebar-menu-nav .sidebar-menu a:hover {
+  background: #444;
+  color: #ffd700;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 .sidebar-logo {
   text-align: center;
@@ -10344,4 +10415,10 @@ body {
 }
 body {
   margin-left: 350px !important;
+}
+
+@media (max-width: 991px) {
+  body {
+    margin-left: 0 !important;
+  }
 }
