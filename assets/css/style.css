@@ -4114,8 +4114,12 @@ div.mean-container a.meanmenu-reveal {
 }
 
 .service-thumb img {
-  width: 100%;
-}
+                            width: 100% !important;
+                            height: 180px !important;
+                            object-fit: cover;
+                            display: block;
+                          }
+
 
 .service-style {
   position: relative;
@@ -4424,6 +4428,7 @@ div.mean-container a.meanmenu-reveal {
     margin-inline-start: -50px;
   }
 }
+
 
 .hover-c.service-box {
   position: relative;
