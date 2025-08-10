@@ -4433,9 +4433,13 @@ div.mean-container a.meanmenu-reveal {
   visibility: visible;
 }
 .hover-c .service-content {
+  width: 350px; 
+  height: 180px; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;
   position: absolute;
-  width: 100%;
-  height: 100%;
   top: 0;
   inset-inline-start: 0;
   opacity: 0;
