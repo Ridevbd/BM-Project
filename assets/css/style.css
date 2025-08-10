@@ -6202,10 +6202,15 @@ div.mean-container a.meanmenu-reveal {
     width: calc(100% - 40px);
   }
 }
+.team-content .member-name a {
+  display: block;
+  text-align: center;
+}
 .team-special .team-content .member-name {
   font-size: 26px;
   font-weight: 600;
   margin-bottom: 7px;
+  text-align: center;
 }
 .team-special .team-content .member-name a:hover {
   color: var(--clr-theme-2);
