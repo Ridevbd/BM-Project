@@ -32,6 +32,7 @@
     <link rel="stylesheet" href="../../assets/css/odometer.css" />
     <link rel="stylesheet" href="../../assets/css/default.css" />
     <link rel="stylesheet" href="../../assets/css/style.css" />
+    <link rel="stylesheet" href="../../assets/DataTables/datatables.css" />
     *
   </head>
 
@@ -237,57 +238,60 @@
                   বৈদেশিক মিশনে কর্মরত থাকা অবস্থায় মৃত্যুবরণকারী সেনা সদস্যদের
                   নামের তালিকা
                 </h4>
-                <table class="table table-striped">
+                <table id="myTable" class="cell-border">
                   <thead>
                     <tr>
-                      <th scope="col">মৃত্যুর কারন</th>
-                      <th scope="col">মৃত্যুর তারিখ</th>
-                      <th scope="col">মিশনের নাম</th>
-                      <th scope="col">নাম</th>
-                      <th scope="col">পদবী</th>
-                      <th scope="col">নং</th>
                       <th scope="col">#</th>
+                      <th scope="col">নং</th>
+                      <th scope="col">ছবি</th>
+                      <th scope="col">পদবী</th>
+                      <th scope="col">নাম</th>
+                      <th scope="col">মিশনের নাম</th>
+                      <th scope="col">মৃত্যুর তারিখ</th>
+                      <th scope="col">মৃত্যুর কারন</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>সড়ক দুর্ঘটনায় আহত হয়ে মৃত্যুবড়ন করেন</td>
-                      <td>২৪-০১-৯৬</td>
-                      <td>ব্যানকন-২(আনমিহ)হাইতি</td>
-                      <td>মোঃ আবদুর রহিম</td>
-                      <td>ল্যাঃকর্পোঃ ডিএমটি</td>
-                      <td>১২১০৬০৩</td>
                       <th scope="row">1</th>
+                      <td>১২১০৬০৩</td>
+                      <td><img style="width: 150px" src="../../assets/img/MILITARY/regiment-of-artillery-in-un-mission/martyrs-photo/ল্যাঃকর্পোঃ ডিএমটি মোঃ আবদুর রহিম.jpg" class="img-thumbnail" alt="..." /> </td>
+                      <td>ল্যাঃকর্পোঃ ডিএমটি</td>
+                      <td>মোঃ আবদুর রহিম</td>
+                      <td>ব্যানকন-২(আনমিহ)হাইতি</td>
+                      <td>২৪-০১-৯৬</td>
+                      <td>সড়ক দুর্ঘটনায় আহত হয়ে মৃত্যুবড়ন করেন</td>
                     </tr>
                     <tr>
-                      <td>সড়ক দুর্ঘটনায় আহত হয়ে মৃত্যুবড়ন করেন</td>
-                      <td>২৪-০১-৯৬</td>
-                      <td>ব্যানকন-২(আনমিহ)হাইতি</td>
-                      <td>মোঃ আবদুর রহিম</td>
-                      <td>ল্যাঃকর্পোঃ ডিএমটি</td>
-                      <td>১২১০৬০৩</td>
-                      <th scope="row">1</th>
+                      <th scope="row">2</th>
+                      <td>১২১০৫৫৪</td>
+                      <td><img style="width: 150px" src="../../assets/img/MILITARY/regiment-of-artillery-in-un-mission/martyrs-photo/কর্পোঃ গানার জাফর উল্লাহ.jpg" class="img-thumbnail" alt="..." /> </td>
+                      <td>কর্পোঃ গানার</td>
+                      <td>জাফর উল্লাহ</td>
+                      <td>ব্যানব্যাট-৩(ইউনামসিল)সিয়েরালিওন</td>
+                      <td>০৫-০১-০২</td>
+                      <td>সেরিব্রাল ম্যালেরিয়া রোগে আক্রান্ত হয়ে মৃত্যুবড়ন করেন</td>
                     </tr>
                     <tr>
-                      <td>সড়ক দুর্ঘটনায় আহত হয়ে মৃত্যুবড়ন করেন</td>
-                      <td>২৪-০১-৯৬</td>
-                      <td>ব্যানকন-২(আনমিহ)হাইতি</td>
-                      <td>মোঃ আবদুর রহিম</td>
-                      <td>ল্যাঃকর্পোঃ ডিএমটি</td>
-                      <td>১২১০৬০৩</td>
-                      <th scope="row">1</th>
+                      <th scope="row">3</th>
+                      <td>১২১৩৯৩৫</td>
+                      <td><img style="width: 150px" src="../../assets/img/MILITARY/regiment-of-artillery-in-un-mission/martyrs-photo/ল্যাঃকর্পোঃ টিএ মোঃ মোকাদ্দেস হোসেন.jpg" class="img-thumbnail" alt="..." /> </td>
+                      <td>ল্যাঃকর্পোঃ টিএ</td>
+                      <td>মোঃ মোকাদ্দেস হোসেন</td>
+                      <td>ব্যানআর্টি-১(ইউনামসিল) সিয়েরালিওন</td>
+                      <td>২১-০৩-০২</td>
+                      <td>সড়ক দুর্ঘটনায় মৃত্যুবড়ন করেন</td>
                     </tr>
                   </tbody>
                 </table>
-                
               </div>
             </div>
           </div>
         </div>
       </section>
       <!-- Table area end  -->
-      
-                 <!-- Gallery Area Starts-->
+
+      <!-- Gallery Area Starts-->
 
       <section class="element fix pt-130 pb-90 bg-white z-index-2">
         <div class="container">
@@ -505,7 +509,6 @@
                         </div>
                       </div>
                     </div>
-                  
                   </div>
                 </div>
               </div>
@@ -713,5 +716,12 @@
     <script src="../../assets/js/slick.min.js"></script>
     <script src="../../assets/js/js_circle-progress.min.js"></script>
     <script src="../../assets/js/main.js"></script>
+    <script src="../../assets/DataTables/datatables.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $("#myTable").DataTable();
+      });
+    </script>
   </body>
 </html>

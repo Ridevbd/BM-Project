@@ -1,2 +1,7 @@
-1: Artillery Center & School 
+1: Menu: আর্টিলারি সেন্টার ও স্কুলের ইতিহাস Renamed to আর্টিলারি সেন্টার এন্ড স্কুলের ইতিহাস 
+2: Artillery Center & School 
     - Description Added.
+    - Cover Image Updated.
+    - Missing School Will be added directly in database after finishing Structure design.
+3: Home Page
+    - Flag Details Updated
