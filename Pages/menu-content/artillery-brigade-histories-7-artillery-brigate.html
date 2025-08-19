@@ -30,6 +30,8 @@
     <link rel="stylesheet" href="../../assets/css/odometer.css" />
     <link rel="stylesheet" href="../../assets/css/default.css" />
     <link rel="stylesheet" href="../../assets/css/style.css" />
+    <link rel="stylesheet" href="../../assets/DataTables/datatables.css" />
+
     *
   </head>
 
@@ -486,7 +488,30 @@
             >
               <div class="team-content mb-30">
                 <h4 class="details-section-title"> প্রতিযোগীতায় সাফল্য</h4>
-                
+                 <table id="competitionTable" class="cell-border">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">প্রতিযোগীতার নাম</th>
+                      <th scope="col">সাফল্য</th>
+                      <th scope="col">বছর</th>
+
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>আন্তঃ ইউনিট সিএএস ট্রফি ফায়ারিং প্রতিযোগিতা </td>
+                      <td>রানার-আপ</td>
+                      <td>২০২১</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>আন্তঃ ইউনিট কাবাডি প্রতিযোগিতা-২০১৯  </td>
+                      <td>চ্যাম্পিয়ন</td>
+                      <td>২০১৯</td>
+                  </tbody>
+                </table>
 
 
 
@@ -496,7 +521,8 @@
         </div>
       </section>
       <!-- প্রতিযোগীতায় সাফল্য Ends-->
-       <!--  উল্লেখযোগ্য কর্মকান্ড Starts-->
+
+      <!--  উল্লেখযোগ্য কর্মকান্ড Starts-->
       <section class="member-details-area pt-130 pb-100">
         <div class="container">
           <div class="member-details-wrapper">
@@ -511,7 +537,39 @@
             >
               <div class="team-content mb-30">
                 <h4 class="details-section-title"> উল্লেখযোগ্য কর্মকান্ড</h4>
-                
+                 <table id="mission" class="cell-border">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">কর্মকান্ডের নাম</th>
+                      <th scope="col">বছর</th>
+
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>একাদশ জাতীয় সংসদ নির্বাচনের দায়িত্ব সুষ্ঠ ও সুন্দর ভাবে পালন করে। </td>
+                      <td>২০১৮</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>দ্বাদশ জাতীয় সংসদ নির্বাচনের দায়িত্ব সুষ্ঠ ও সুন্দর ভাবে পালন করে।  </td>
+                      <td>২০২৪ </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>উপজেলা নির্বাচন এবং ইভিএম প্রশিক্ষণ কার্যক্রম সমূহ সুষ্ঠ ও সুন্দর ভাবে পালন করে। </td>
+                      <td>২০১৯</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">4</th>
+                      <td>৭ পদাতিক ডিভিশনের অপারেশন প্লান প্রস্তুতকরণ, ডিভিশনের দায়িত্বপূর্ণ এলাকার টেরেইন এনালাইসিস, প্রশিক্ষণের জন্য মাল্টিপারপাস শেড নির্মান, ডিভিশন পর্যায়ে সিপিএক্স ও সেনাবাহিনী পর্যায়ে লজিষ্টিক সিপিএক্স পরিচালনা এবং সেনানিবাসের মাষ্টার প্লান পুনঃপ্রস্তুতকরণসহ বিভিন্ন কার্যক্রম পরিচালনা করে চলেছে। এছাড়াও ‘ ইন এইড টু সিভিল পাওয়ার’ এর আওতায় বেসামরিক প্রশাসনকে সহায়তার নিমিত্তে বর্তমানে এবং ইতিপূর্বে আস্থা ও নিষ্ঠার সাথে দায়িত্ব পালন করে আসছে।
+ </td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                </table>
 
 
 
@@ -742,5 +800,17 @@
     <script src="../../assets/js/slick.min.js"></script>
     <script src="../../assets/js/js_circle-progress.min.js"></script>
     <script src="../../assets/js/main.js"></script>
+    <script src="../../assets/DataTables/datatables.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $("#competitionTable").DataTable();
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $("#mission").DataTable();
+      });
+    </script>
   </body>
 </html>
