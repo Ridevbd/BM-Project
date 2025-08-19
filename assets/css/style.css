@@ -10478,4 +10478,11 @@ body {
   body {
     margin-left: 0 !important;
   }
+.fixed-width-150{
+  width: 150px;
+}
+
+
+
+
 }
