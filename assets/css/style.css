@@ -6261,6 +6261,10 @@ div.mean-container a.meanmenu-reveal {
 .team-thumb {
   position: relative;
   overflow: hidden;
+  width:100%;
+  height: 350px; /* Set your desired fixed height */
+  object-fit: cover; /* Maintains aspect ratio and crops if necessary */
+  border-radius: 8px; /* Optional - rounded corners */
 }
 .team-thumb img {
   width: 100%;
