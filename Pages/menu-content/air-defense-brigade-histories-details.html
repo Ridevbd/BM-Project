@@ -746,5 +746,33 @@
     <script src="../../assets/js/slick.min.js"></script>
     <script src="../../assets/js/js_circle-progress.min.js"></script>
     <script src="../../assets/js/main.js"></script>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $('section.member-details-area').each(function () {
+      const $section = $(this);
+
+      // Find the .team-content container
+      const $content = $section.find('.team-content');
+
+      // If it exists
+      if ($content.length) {
+        // Get all direct children except the heading
+        const otherContent = $content.children().not('h1, h2, h3, h4, h5, h6');
+
+        // Also check if those non-heading elements are empty (e.g., just whitespace or no text)
+        const hasMeaningfulContent = otherContent.filter(function () {
+          return $.trim($(this).text()) !== "" || $(this).find('table, img, ul, ol, video, iframe').length > 0;
+        }).length > 0;
+
+        // If no other meaningful content, hide the whole section
+        if (!hasMeaningfulContent) {
+          $section.hide();
+        }
+      }
+    });
+  });
+</script>
+
   </body>
 </html>
