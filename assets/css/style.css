@@ -10507,6 +10507,12 @@ body {
   color: #666;
   display: block;
 }
+.blog-sub-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px; /* optional spacing */
+}
 
 
 
