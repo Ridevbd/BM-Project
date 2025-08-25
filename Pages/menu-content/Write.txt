@@ -1,0 +1,81 @@
+
+বর্তমান কমান্ডার
+প্রাক্তন সকল কমান্ডার
+প্রতিষ্ঠাকালিন সদস্যবৃন্দ
+স্থানান্তর
+পতাকা উত্তোলন
+
+
+  <section class="member-details-area pt-130 pb-100">
+        <div class="container">
+          <div class="member-details-wrapper">
+            <div
+              class="wow fadeInUp"
+              data-wow-delay=".3s"
+              style="
+                visibility: visible;
+                animation-delay: 0.3s;
+                animation-name: fadeInUp;
+              "
+            >
+              <div class="team-content mb-30">
+                <h4 class="details-section-title">প্রাক্তন সকল কমান্ডারফগন</h4>
+              
+      
+                <div class="container">
+               <div class="col-lg-4 col-md-6">
+                  <div class="team-card team-default mb-30">
+                      <div class="team-thumb">
+                          <img src="../../assets/img/MILITARY/air-defense-department-history-details/ex-commander/BGM Abu Bokkor Siddik Khan.jpg" alt="img not found">
+                      </div>
+                      <div class="team-content">
+                          <h4 class="member-name">
+                              <a href="team-details.html">বিএ-৪১১৫ ব্রিঃ জেঃ মোঃ আবু বকর সিদ্দিক খান </a>
+                          </h4>
+                          <span class="member-designation">
+                             এএফডব্লিউসি, পিএসসি, জি+ (১০-০৯-২০১৭ হতে ২০-০১-২০১৯)
+                          </span>
+                          <div class="social-links team-social"></div>
+                      </div>
+                  </div>
+              </div>
+               <div class="col-lg-4 col-md-6">
+                  <div class="team-card team-default mb-30">
+                      <div class="team-thumb">
+                          <img src="../../assets/img/MILITARY/air-defense-department-history-details/ex-commander/BGM Abul Kalam Azad.jpg" alt="img not found">
+                      </div>
+                      <div class="team-content">
+                          <h4 class="member-name">
+                              <a href="team-details.html">বিএ-৩৯০৩ ব্রিঃ জেঃ মোঃ আবুল কালাম আজাদ</a>
+                          </h4>
+                          <span class="member-designation">
+                             এন্ডিসি, এএফডব্লিউসি, পিএসসি, জি+ (২০-০১-২০১৯ হতে ০৩-০৭-২০২০)
+                          </span>
+                          <div class="social-links team-social"></div>
+                      </div>
+                  </div>
+              </div>
+               <div class="col-lg-4 col-md-6">
+                  <div class="team-card team-default mb-30">
+                      <div class="team-thumb">
+                          <img src="../../assets/img/MILITARY/air-defense-department-history-details/ex-commander/BG Akter Shahid.jpg" alt="img not found">
+                      </div>
+                      <div class="team-content">
+                          <h4 class="member-name">
+                              <a href="team-details.html">বিএ-৪১১৫ ব্রিঃ জেঃ আখতার শহীদ </a>
+                          </h4>
+                          <span class="member-designation">
+                             এসইউপি, পিএসসি, জি+ (১৮-০৬-২০২০ হতে ২৭-০১-২০২১)
+                          </span>
+                          <div class="social-links team-social"></div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+     
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>

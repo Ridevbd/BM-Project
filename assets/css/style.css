@@ -6206,6 +6206,10 @@ div.mean-container a.meanmenu-reveal {
   display: block;
   text-align: center;
 }
+.m-text-center {
+  display: block;
+  text-align: center;
+}
 .team-special .team-content .member-name {
   font-size: 26px;
   font-weight: 600;
